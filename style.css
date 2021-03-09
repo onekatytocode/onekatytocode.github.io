@@ -5,39 +5,31 @@
 body {
 	background-color: #986960;
 	font-family: 'Raleway', sans-serif;
+	font-family: Raleway;
+	src: url("raleway");
 }
 
 nav {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
+	color: #ffe4e1;
 }
 
-ul {
-	list-style-type: none;
-	color: black;
-}
 
 li {
 	padding: 0.5em;
 	display: inline;
 	color: #ffe4e1;
-	text-decoration: none;
+	
 }
 
-a:visited {
-	color: #ffe4e1;
-}
 
-a:link {
-	text-decoration: none;
-}
-
-.item2 {
+.katy {
 	order: 1;
-	color: #ffe4e1;
-	padding: 5px;
+	
 	font-size: 25px;
+	color: #ffe4e1;
 }
 
 .aspire {
@@ -46,22 +38,18 @@ a:link {
 
 p {
 	font-size: 15px;
-	display: block;
 }
 
 .contain {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	padding: 60px;
 }
 
 img {
 	width: 100%;
-	height: auto;
-	border-radius: 20%;
+	border-radius: 5%;
 	opacity: 88%;
 }
+
 
 .main-text {
 	font-weight: bold;
@@ -80,17 +68,40 @@ img {
 
 .about {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	
+	
 	color: white;
 }
 
 .item {
-	flex-grow: 3;
+	flex-grow: 3; /* might need to set a width for child elements */
 }
 
+.container > img {
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+}
+
+h2 {
+	color: #ffffff;
+	padding: 10px;
+}
+
+.conainer > div {
+	
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+.1 .2 .3 {
+	margin: 10px;
+}
 footer {
 	margin: 10px;
 	color: #999;
-	padding: 5px 0 5px 0;
+	padding: 5px;
 }
