@@ -1,26 +1,19 @@
-* {
-	box-sizing: border-box;
-}
-
-body {
-	background-color: #986960;
-	font-family: 'Raleway', sans-serif;
-	font-family: Raleway;
-	src: url(raleway);
-}
-
 nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-
+ul {
+	list-style-type: none;
+	color: black;
+}
 
 li {
 	padding: 0.5em;
 	display: inline;
 	color: #ffe4e1;
+	text-decoration: none;
 }
 
 a:visited {
@@ -36,9 +29,13 @@ a:link {
 	color: #ffe4e1;
 	padding: 5px;
 	font-size: 25px;
-	
 }
 
 .aspire {
 	color: #ffe4e1;
+}
+
+p {
+	font-size: 15px;
+	display: block;
 }
