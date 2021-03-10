@@ -23,7 +23,7 @@ nav {
 }
 
 
-li {
+li a {
 	padding: 0.5em;
 	display: inline;
 	color: #ffe4e1;
@@ -33,17 +33,14 @@ li {
 
 .katy {
 	order: 1;
-	font-size: 25px;
-	color: #ffe4e1;
+	
 }
 
 .aspire {
 	color: #ffe4e1;
 }
 
-p {
-	font-size: 15px;
-}
+/* main section */
 
 .contain {
 	padding: 60px;
@@ -56,29 +53,25 @@ img {
 }
 
 
-.main-text {
-	font-weight: bold;
-	color: #ffe4e1;
-	font-size: 30px;
-	position: absolute;
-	bottom: 60%;
-}
-
-.second-text {
-	color: #ffe4e1;
-	position: absolute;
-	left: 10px;
-	bottom: 57%;
-}
-
 .about {
 	display: flex;
-	
-	
-	color: white;
+    color: white;
 }
 
-.item {
+section > div {
+	padding: 30px;
+}
+
+h2 {
+	font-weight: bolder;
+}
+
+.project-text {
+	color: #986960;
+	text-align: center;
+	font-weight: bold;
+}
+/* .item {
 	flex-grow: 3; /* might need to set a width for child elements */
 }
 
@@ -90,32 +83,39 @@ img {
 
 
 h1 {
-	color: #ffffff;
-	padding: 10px;
-}
-
-.conainer > div {
-	
+	font-size: 50px;
+	color: #ffe4e1;
 }
 
 .container {
 	display: flex;
 	justify-content: space-between;
-	padding: 20px;
+	padding: 15px;
 	margin: 0 10% 0 10%;
 }
- 
-ul {
-	padding: 10px;
-	align-items: center;
-	margin: auto;
-}
-.contact-list {
+
+a {
 	color: #986960;
+	text-decoration: none;
+}
+ 
+.contact-list {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 30px;
+	color: #986960;
+	
 }
 
-footer {
-	margin: 10px;
-	color: #999;
-	padding: 5px;
+.topText {
+	color: #986960;
+    text-align: center;
+}
+
+.footer {
+	text-align: center;
+	color: #ffe4e1;
+	height: 100px;
+	padding: 50px;
+	background-color: #986960;
 }
