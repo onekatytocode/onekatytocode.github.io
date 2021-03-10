@@ -1,0 +1,19 @@
+img {
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+}
+
+
+.conainer > div {
+	width: 150px;
+	height: 150px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+

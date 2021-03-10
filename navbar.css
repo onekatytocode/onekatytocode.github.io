@@ -1,19 +1,19 @@
 nav {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	justify-content: space-between;
 }
 
 ul {
-	list-style-type: none;
+	
 	color: black;
 }
 
 li {
 	padding: 0.5em;
 	display: inline;
-	color: #ffe4e1;
-	text-decoration: none;
+	color: #ffffff;
+	
 }
 
 a:visited {
@@ -24,9 +24,9 @@ a:link {
 	text-decoration: none;
 }
 
-.item2 {
-	order: 1;
-	color: #ffe4e1;
+
+.katy {
+	color: #ffffff;
 	padding: 5px;
 	font-size: 25px;
 }
@@ -37,5 +37,4 @@ a:link {
 
 p {
 	font-size: 15px;
-	display: block;
 }
