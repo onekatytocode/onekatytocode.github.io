@@ -1,0 +1,19 @@
+nav {
+	display: flex;
+	justify-content: flex-end;
+	color: #ffe4e1;
+}
+
+li {
+	padding: 0.5em;
+	color: #ffe4e1;
+	list-style-type: none;
+}
+
+a:visited {
+	color: #ffe4e1;
+}
+
+a:link {
+	text-decoration: none;
+}

@@ -1,0 +1,147 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #986960;
+	font-family: 'Raleway', sans-serif;
+	font-family: Raleway;
+	src: url("raleway");
+}
+
+.backUP {
+	order: 1;
+	font-size: 3.1rem;
+}
+
+.aspire {
+	color: #ffe4e1;
+}
+
+/* main section */
+
+.contain {
+	padding: 3.75rem;
+}
+
+img {
+	width: 100%;
+	border-radius: 5%;
+	opacity: 88%;
+}
+
+
+.about {
+	width: 90%;
+	margin: 0 auto;
+    color: white;
+}
+
+/* projects */
+
+h2 {
+	font-weight: bolder;
+	font-size: 2rem;
+}
+
+.project-text {
+	color: #986960;
+	text-align: center;
+	font-weight: bold;
+}
+
+.about p {
+	color: #ffffff;
+}
+
+.about {
+	padding-bottom: 15px;
+}
+
+h1 {
+	font-size: 3.1rem;
+}
+
+article > h1 {
+	color: #ffffff;
+	font-size: 3.2rem;
+	padding-bottom: 2.5rem;
+}
+
+#portfolio, 
+#contact,
+.navigateTop {
+	background-color: #ffffff;
+}
+
+#portfolio h1 {
+	color: #986960;
+}
+
+#portfolio,
+.aspire,
+nav {
+	padding: 10px;
+}
+
+nav a {
+	color: #ffe4e1;
+}
+
+.img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.one-img {
+    padding: 0 1.25rem 1rem 1.25rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+p {
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.contactText a {
+	color: #986960;
+	text-decoration: none;
+}
+ 
+.contact-list {
+	text-align: center;
+	padding-top: 4.15rem;
+	font-size: 2rem;
+	color: #986960;
+
+}
+
+.contact-list,
+.topText {
+	margin: 0;
+}
+
+.contactText {
+	color: #986960;
+	text-align: center;
+	font-size: 1.5rem;
+	padding-bottom: 15px;
+}
+
+.topText {
+	color: #986960;
+    text-align: center;
+	padding: 15px 0;
+}
+
+.footer {
+	text-align: center;
+	color: #ffe4e1;
+	height: 1.5rem;
+	padding: 2.1rem;
+	background-color: #986960;
+}
