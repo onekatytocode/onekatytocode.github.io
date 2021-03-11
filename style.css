@@ -47,6 +47,8 @@ section > div {
 	padding: 1.85rem;
 }
 
+/* projects */
+
 h2 {
 	font-weight: bolder;
 }
@@ -72,7 +74,6 @@ article > h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
 }
 
@@ -101,6 +102,10 @@ a {
 
 }
 
+.contactText {
+	color: #986960;
+}
+
 .topText {
 	color: #986960;
     text-align: center;
@@ -110,6 +115,6 @@ a {
 	text-align: center;
 	color: #ffe4e1;
 	height: 1.5rem;
-	padding: 3.12rem;
+	padding: 2.1rem;
 	background-color: #986960;
 }
