@@ -80,6 +80,10 @@ nav {
 	padding: 10px;
 }
 
+nav a {
+	color: #ffe4e1;
+}
+
 .img-area {
     display: flex;
     flex-wrap: wrap;
