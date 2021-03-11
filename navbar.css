@@ -2,20 +2,18 @@ nav {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
-}
-
-ul {
-	
-	color: black;
+	color: #ffe4e1;
 }
 
 li {
 	padding: 0.5em;
 	display: inline;
-	color: #ffffff;
-	
+	color: #ffe4e1;
 }
 
+li a {
+	color: #ffe4e1;
+}
 a:visited {
 	color: #ffe4e1;
 }
@@ -24,17 +22,6 @@ a:link {
 	text-decoration: none;
 }
 
-
-.katy {
-	color: #ffffff;
-	padding: 5px;
-	font-size: 25px;
-}
-
 .aspire {
 	color: #ffe4e1;
-}
-
-p {
-	font-size: 15px;
 }
