@@ -3,7 +3,6 @@
 }
 
 body {
-	background-color: #986960;
 	padding: 10px;
 	font-family: 'Raleway', sans-serif;
 	font-family: Raleway;
@@ -61,7 +60,6 @@ h2 {
 
 h1 {
 	font-size: 3.1rem;
-	color: #ffe4e1;
 }
 
 article > h1 {
