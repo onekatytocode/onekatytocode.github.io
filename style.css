@@ -3,37 +3,21 @@
 }
 
 body {
-	background-color: #986960;
+	padding: 10px;
 	font-family: 'Raleway', sans-serif;
 	font-family: Raleway;
 	src: url("raleway");
 	background: linear-gradient(to bottom,
 		#986960 0%,
-		#986960 80%,
-		#ffffff 80%,
+		#986960 70%,
+		#ffffff 70%,
 		#ffffff 100%
 		);
 }
 
-nav {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-	color: #ffe4e1;
-}
-
-
-li a {
-	padding: 0.5em;
-	display: inline;
-	color: #ffe4e1;
-	
-}
-
-
-.katy {
+.backUP {
 	order: 1;
-	
+	font-size: 3.1rem;
 }
 
 .aspire {
@@ -43,7 +27,7 @@ li a {
 /* main section */
 
 .contain {
-	padding: 60px;
+	padding: 3.75rem;
 }
 
 img {
@@ -59,8 +43,10 @@ img {
 }
 
 section > div {
-	padding: 30px;
+	padding: 1.85rem;
 }
+
+/* projects */
 
 h2 {
 	font-weight: bolder;
@@ -71,27 +57,34 @@ h2 {
 	text-align: center;
 	font-weight: bold;
 }
-/* .item {
-	flex-grow: 3; /* might need to set a width for child elements */
-}
-
-.container > img {
-	width: 400px;
-	height: 300px;
-	display: inline-block;
-}
-
 
 h1 {
-	font-size: 50px;
-	color: #ffe4e1;
+	font-size: 3.1rem;
 }
 
-.container {
-	display: flex;
-	justify-content: space-between;
-	padding: 15px;
-	margin: 0 10% 0 10%;
+article > h1 {
+	color: #ffffff;
+	font-size: 3.2rem;
+	padding-bottom: 2.5rem;
+}
+
+.img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.one-img {
+    padding: 0 1.25rem 1rem 1.25rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+p {
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
 }
 
 a {
@@ -101,10 +94,14 @@ a {
  
 .contact-list {
 	text-align: center;
-	padding-top: 30px;
-	font-size: 30px;
+	padding-top: 4.15rem;
+	font-size: 2rem;
 	color: #986960;
-	
+
+}
+
+.contactText {
+	color: #986960;
 }
 
 .topText {
@@ -115,7 +112,7 @@ a {
 .footer {
 	text-align: center;
 	color: #ffe4e1;
-	height: 100px;
-	padding: 50px;
+	height: 1.5rem;
+	padding: 2.1rem;
 	background-color: #986960;
 }
